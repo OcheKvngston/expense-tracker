@@ -1,0 +1,24 @@
+.TableHolder{
+    width: 70%;
+    min-height: 200px;
+    height: auto;
+    border: 2px solid #02213F;
+}
+.TableHolder table tr th{
+    width: 1%;
+    height: 50px;
+    background-color: #02213F;
+    color: white;
+}
+.TableHolder table tr td{
+    width: 1%;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+tr td:nth-child(odd){
+    background-color: #02213F;
+}
+tr td:nth-child(even){
+    background-color: green;
+}
